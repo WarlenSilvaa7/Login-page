@@ -17,9 +17,14 @@ main {
 
     .main-section {
         gap: 8px;
-
         flex-grow: 1;
         background-color: $gray-bg;
+
+        img {
+            width: 700px;
+            height: 700px;
+        }
+
     }
 
     .form-section {
